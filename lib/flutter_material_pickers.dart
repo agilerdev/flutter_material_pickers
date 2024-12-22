@@ -6,25 +6,23 @@ library flutter_material_pickers;
 
 import 'package:flutter/cupertino.dart';
 
-export 'package:file_picker/file_picker.dart' show FileType;
 export 'package:flutter_material_pickers/helpers/show_checkbox_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_color_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_date_picker.dart';
-export 'package:flutter_material_pickers/helpers/show_file_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_number_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_palette_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_radio_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_responsive_dialog.dart';
-
-/// Models
-export 'package:flutter_material_pickers/models/picker_model.dart';
-export 'package:flutter_material_pickers/models/select_all_config.dart';
 
 /// Helpers
 export 'package:flutter_material_pickers/helpers/show_scroll_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_selection_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_swatch_picker.dart';
 export 'package:flutter_material_pickers/helpers/show_time_picker.dart';
+
+/// Models
+export 'package:flutter_material_pickers/models/picker_model.dart';
+export 'package:flutter_material_pickers/models/select_all_config.dart';
 
 // Constants
 const double kPickerHeaderPortraitHeight = 80.0;
